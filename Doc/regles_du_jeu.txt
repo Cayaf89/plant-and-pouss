@@ -1,0 +1,51 @@
+I - Mise en place
+
+	Placer l'indicateur de prix et l'indicateur de saison sur la table.
+	Mettre l'indicateur de saisons sur la position Printemps
+	Melanger les cartes pioche et en distribuer 5 a chaque joueur
+	Placer le reste des cartes pioches au milieu de la table
+
+
+II - Déroulement d'un tour.
+
+	Un tour est caractérisé par une saison.
+	Au début d'une saison, il faut lancer un dé pour chaque légume sur l'indicateur de prix. Le résultat du dé obtenu sera ainsi le prix du légume pour la saison.
+	A chaque saison, les joueurs vont pouvoir jouer leur cartes en même temps, a condition de respecter les phase suivante.
+
+	1 - Phase de pourriture
+	-> les Joueurs doivent jeter les légumes invendus de leur stock car ils pourrissent.
+	Les légumes pourrissent à la saison où on les sème.
+	Au printemps	-> Les citrouilles
+	En été 		-> Les carottes
+	En Automne	-> Les salades
+	En Hiver	-> les tomates
+
+	2 - Phase de pioche.
+	-> Tous les joueurs piochent 2 carte
+
+	3 - Phase de récolte.
+	-> Tous les joueurs vont pouvoir récolter leurs légumes pendant cette phase :
+	Au printemps	-> Les salades
+	En été 		-> Les tomates
+	En Automne	-> Les citrouilles
+	En Hiver	-> les carottes
+
+	4 - Phase des semis.
+	-> Tous les joueurs vont pouvoir planter leurs graines de légumes pendant cette phase :
+	Au printemps	-> Les citrouilles
+	En été 		-> Les carottes
+	En Automne	-> Les salades
+	En Hiver	-> les tomates
+
+	5 - Phase de vente.
+	-> Tous les joueurs vont pouvoir vendre les legumes qu'is ont récolté.
+	Un joueur n'est pas obligé de vendre ses légumes. Il peut attendre que le prix du moment soit le plus intéressant pour faire un maximum de bénéfice.
+
+	Les cartes Bonus / Malus et Joker peuvent être jouées à n'importe quel moment pendant les phases 3, 4 et 5.
+
+
+III - Fin de la partie.
+	La partie s'arrete lorsque l'un des joueurs atteint les 30 pièces. Il est alors désigné vainqueur de la partie.
+
+
+ 

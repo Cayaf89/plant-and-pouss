@@ -1,0 +1,14 @@
+.buttonContainer {
+    position: absolute;
+    float: right;
+    right: 0;
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: inherit;
+}
+
+.title {
+    color: inherit;
+}

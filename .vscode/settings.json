@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "plant_and_pouss",
+            "dialect": "PostgreSQL",
+            "isActive": false,
+            "isConnected": false,
+            "name": "plant and pouss",
+            "password": "admin",
+            "port": 5432,
+            "server": "localhost",
+            "username": "cayaf"
+        }
+    ]
+}
