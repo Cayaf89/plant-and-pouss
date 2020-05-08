@@ -1,32 +1,65 @@
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
+import React from "react";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+} from "react-router-dom";
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
+import HomeScreen from "./Screens/HomeScreen";
+import Register from "./Components/Register";
+import { connect } from "react-redux";
+import { userLoginFetch } from "./Actions/UserActions";
+import Login from "./Components/Login";
+// import './Styles/App.css';
 
-require('./bootstrap');
+function App() {
 
-window.Vue = require('vue');
+    return (
+        <Router>
+            <div>
+                <AppBar title="Plant and Pouss" position="static">
+                    <Toolbar>
+                        <Link exact to="/" className="title">
+                            <Button color="inherit" >
+                                <Typography variant="h6">
+                                    Plant and Pouss
+                                </Typography>
+                            </Button>
+                        </Link>
 
-/**
- * The following block of code may be used to automatically register your
- * Vue components. It will recursively scan this directory for the Vue
- * components and automatically register them with their "basename".
- *
- * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
- */
+                        <div className="buttonContainer">
+                            <Link to="/register" className="nav-link" >
+                                <Button color="inherit" >
+                                    Register
+                                </Button>
+                            </Link>
+                            <Link to="/login" className="nav-link" >
+                                <Button color="inherit" >
+                                    Login
+                                </Button>
+                            </Link>
+                        </div>
+                    </Toolbar>
+                </AppBar>
 
-// const files = require.context('./', true, /\.vue$/i)
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
+                <Switch>
+                    <Route exact path="/">
+                        <HomeScreen />
+                    </Route>
+                    <Route path="/login">
+                        <Login />
+                    </Route>
+                    <Route path="/register">
+                        <Register />
+                    </Route>
+                </Switch>
+            </div>
+        </Router>
+    );
+}
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
-
-const app = new Vue({
-    el: '#app',
-});
+export default App;
