@@ -5,7 +5,7 @@ services:
         image: nginx
         volumes:
             - ./.docker/conf/nginx/default.conf:/etc/nginx/conf.d/default.conf
-            - ./PlantAndPoussApi:/var/www/html
+            - ./PlantAndPouss:/var/www/html
         ports:
             - 80:80
         restart: always
@@ -20,7 +20,7 @@ services:
         restart: always
         volumes:
             - ./.docker/conf/php/php.ini:/usr/local/etc/php/conf.d/php.ini
-            - ./PlantAndPoussApi:/var/www/html
+            - ./PlantAndPouss:/var/www/html
         networks:
             - plant_and_pouss_net
     db:

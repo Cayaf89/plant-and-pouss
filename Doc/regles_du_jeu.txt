@@ -10,7 +10,7 @@ II - Déroulement d'un tour.
 
 	Un tour est caractérisé par une saison.
 	Au début d'une saison, il faut lancer un dé pour chaque légume sur l'indicateur de prix. Le résultat du dé obtenu sera ainsi le prix du légume pour la saison.
-	A chaque saison, les joueurs vont pouvoir jouer leur cartes en même temps, a condition de respecter les phase suivante.
+	A chaque saison, les joueurs vont pouvoir jouer chacun leur tour
 
 	1 - Phase de pourriture
 	-> les Joueurs doivent jeter les légumes invendus de leur stock car ils pourrissent.
@@ -47,5 +47,10 @@ II - Déroulement d'un tour.
 III - Fin de la partie.
 	La partie s'arrete lorsque l'un des joueurs atteint les 30 pièces. Il est alors désigné vainqueur de la partie.
 
+Nombre de cartes :
+	- Engrais : 6
+	- Jour de marché : 4
+	- Récolte fructueuse : 4
+	- Roi de la carotte : 
 
  
